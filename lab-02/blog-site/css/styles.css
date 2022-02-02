@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+}
+
+section.topImage{
+  background-color: #151618;
+}
+
+img.large{
+  width: 55em;
+  display: block;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 1em;
+  background-color: #151618;
+  text-align: right;
+  flex-wrap: wrap;
+}
+
+nav a{
+  color: white;
+  margin: 1em;
+  text-decoration-line: none;
+  transition: color 0.1s;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+nav a.hover:hover{
+  color: #4361b3;
+}
+
+
+nav a.blog{
+  padding: 0.6em 1em;
+  border-radius: 0.5em;
+  background-color: #5badf0;
+}
+
+img.small{
+  width: 4.5em;
+  margin-right: 2em;
+  margin-bottom: auto;
+  border-radius: 50%;
+}
+
+section.outer{
+  display: flex;
+  flex-direction: row;
+  margin: 4.5em auto;
+  width: 32em;
+}
+
+section.inner{
+  margin-bottom: auto;
+}
+
+h2{
+  color: #333;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Helvetica;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+p{
+  display: flex;
+  font-size: 1em;
+  line-height: 1.7em;
+  font-family: Helvetica;
+}

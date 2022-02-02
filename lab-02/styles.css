@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background: red;
+  flex-direction: column;
+  flex-shrink: 0;
+  order: 2;
+}
+
+nav a{
+  background: blue;
+  color: yellow;
+  margin: 0.5em 0.25em;
+  padding: 1em;
+  text-decoration: underline;
+
+}
+
+nav a:hover{
+  background-color: pink;
+  transition: background-color 0.5s;
+}
+section{
+  background-color:lightgrey;
+  overflow: auto;
+
+  box-sizing: border-box;
+}
+header{
+  background-color: pink;
+  overflow: auto;
+}
+
+p{
+  padding: 0em 1em;
+}
+
+main{
+  display: flex;
+}
