@@ -1,0 +1,40 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  /* opacity: 0; */
+  transition: 0.5s;
+  transform: translate(100vw);
+  position: fixed;
+  top: 0;
+}
+
+nav a{
+  font-size: 2em;
+  padding: 0.25em 1em;
+}
+
+#menuToggler{
+  font-size: 5em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+nav.open{
+  /* opacity: 1; */
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 600px){
+
+  #menuToggler{
+    display: none;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
